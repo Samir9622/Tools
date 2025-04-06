@@ -24,6 +24,60 @@
             --medium-gray: #757575;
             --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             --border-radius: 8px;
+        <script>
+const dropArea = document.getElementById("drop-area");
+const fileInput = document.getElementById("fileElem");
+const preview = document.getElementById("preview");
+
+// Prevent default drag behaviors
+["dragenter", "dragover", "dragleave", "drop"].forEach(eventName => {
+  dropArea.addEventListener(eventName, e => e.preventDefault(), false);
+  dropArea.addEventListener(eventName, e => e.stopPropagation(), false);
+});
+
+dropArea.addEventListener("drop", handleDrop, false);
+fileInput.addEventListener("change", handleFiles, false);
+
+function handleDrop(e) {
+  const dt = e.dataTransfer;
+  const files = dt.files;
+  handleFiles({ target: { files } });
+}
+
+function handleFiles(e) {
+  const files = e.target.files;
+  if (!files.length) return;
+
+  const file = files[0];
+  if (!file.type.startsWith("image/")) {
+    alert("Please upload an image file.");
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = function(event) {
+    const img = new Image();
+    img.src = event.target.result;
+
+    img.onload = function() {
+      const canvas = document.createElement("canvas");
+      const scale = 0.5; // Compress to 50%
+      canvas.width = img.width * scale;
+      canvas.height = img.height * scale;
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+      canvas.toBlob(blob => {
+        const compressedUrl = URL.createObjectURL(blob);
+        preview.innerHTML = `<h3>Compressed Image Preview:</h3><img src="${compressedUrl}" alt="Compressed Image" style="max-width: 100%; margin-top: 10px;">`;
+      }, "image/jpeg", 0.7); // Adjust quality here (0.1 to 1)
+    };
+  };
+  reader.readAsDataURL(file);
+}
+</script>
+
+
         }
         
         * {
@@ -611,8 +665,16 @@
         selectFilesBtn.addEventListener('click', () => fileInput.click());
         
         fileInput.addEventListener('change', handleFileSelect);
+        <input type="file" id="fileElem" accept="image/*" style="display:none" />
+        <input type="file" id="fileElem" accept="image/*" style="display:none" />
         
-        dropArea.addEventListener('dragover', (e) => {
+        
+
+        <div id="drop-area">...</div>
+        <div id="preview"></div>
+
+        
+      dropArea.addEventListener('dragover', (e) => {
             e.preventDefault();
             dropArea.classList.add('active');
         });
