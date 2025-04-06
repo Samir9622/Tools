@@ -681,3 +681,4 @@ function handleFiles(e) {
         
         dropArea.addEventListener('dragleave', () => {
             dropArea.classList.
+        https://samir9622.github.io/Index.html-1/
