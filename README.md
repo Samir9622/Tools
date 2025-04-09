@@ -515,7 +515,7 @@ function handleFiles(e) {
         
         <div class="ad-section">
             <div class="ad-container">
-                <!-- AdSense Ad Unit -->ca-app-pub-8773480799818158/9354903383
+                <!-- AdSense Ad Unit -->
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8773480799818158" crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
      style="display:block"
