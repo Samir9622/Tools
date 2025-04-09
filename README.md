@@ -15,7 +15,7 @@
     <link rel="canonical" href="https://www.yourimagecompressor.com">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8773480799818158" crossorigin="anonymous"></script>
     <style>
-        :root   
+        :root Publisher ID: pub-8773480799818158 
             --primary-color: #4285f4;
             --secondary-color: #34a853;
             --accent-color: #ea4335;
@@ -576,7 +576,8 @@ function handleFiles(e) {
         
         <div class="ad-section">
             <div class="ad-container">
-                
+       
+        <!-- AdSense Ad Unit -->         
         <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
