@@ -515,8 +515,9 @@ function handleFiles(e) {
         
         <div class="ad-section">
             <div class="ad-container">
-                
-<ins class="adsbygoogle"
+         
+       <!-- AdSense Ad Unit -->ca-app-pub-8773480799818158/9354903383      
+     <ins class="adsbygoogle" 
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
      data-ad-slot="9354903383"
@@ -577,7 +578,7 @@ function handleFiles(e) {
         <div class="ad-section">
             <div class="ad-container">
        
-        <!-- AdSense Ad Unit -->         
+        <!-- AdSense Ad Unit -->ca-app-pub-8773480799818158/9055111364      
         <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
