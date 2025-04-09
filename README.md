@@ -508,6 +508,28 @@ function handleFiles(e) {
     </header>
     
     <main class="container">
+  <section class="hero">
+    <!-- Hero content -->
+  </section>
+
+  <!-- ======= TOP AD SECTION ======= -->
+  <div class="ad-section">
+    <div class="ad-container">
+      <!-- Properly formatted AdSense unit -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8773480799818158"
+           data-ad-slot="9354903383"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+
+  <!-- Rest of your code (compression tool, etc.) -->
+</main><main class="container">
         <section class="hero">
             <h1>Free Online Image Compression Tool</h1>
             <p>Reduce your image file size without losing quality. Supports JPG, PNG, and WebP formats. Fast, secure, and completely free!</p>
