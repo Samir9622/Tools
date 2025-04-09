@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://www.yourimagecompressor.com/preview.jpg">
     <title>Free Online Image Compression Tool | Reduce Image Size</title>
     <link rel="canonical" href="https://www.yourimagecompressor.com">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8773480799818158" crossorigin="anonymous"></script>
     <style>
         :root Publisher ID: pub-8773480799818158
             --primary-color: #4285f4;
