@@ -15,7 +15,7 @@
     <link rel="canonical" href="https://www.yourimagecompressor.com">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8773480799818158" crossorigin="anonymous"></script>
     <style>
-        :root Publisher ID: pub-8773480799818158
+        :root   
             --primary-color: #4285f4;
             --secondary-color: #34a853;
             --accent-color: #ea4335;
@@ -515,8 +515,7 @@ function handleFiles(e) {
         
         <div class="ad-section">
             <div class="ad-container">
-                <!-- AdSense Ad Unit -->
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8773480799818158" crossorigin="anonymous"></script>
+                
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
@@ -525,7 +524,7 @@ function handleFiles(e) {
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> 
 
                      (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
@@ -577,17 +576,15 @@ function handleFiles(e) {
         
         <div class="ad-section">
             <div class="ad-container">
-                <!-- AdSense Ad Unit -->to ca-app-pub-8773480799818158/9055111364
-                <ins class="adsbygoogle"
+                
+        <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
      data-ad-slot="9055111364"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
+     (adsbygoogle = window
                      (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
             </div>
