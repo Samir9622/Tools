@@ -643,7 +643,7 @@ function handleFiles(e) {
                         <li><a href="/png-compressor">PNG Compressor</a></li>
                         <li><a href="/webp-converter">WebP Converter</a></li>
                         <li><a 
-<!DOCTYPE html>
+                        <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -771,5 +771,6 @@ function handleFiles(e) {
   </footer>
 
   <script src="compression.js"></script>
-</body>
-</html>
+  
+
+                        
