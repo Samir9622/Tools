@@ -643,3 +643,133 @@ function handleFiles(e) {
                         <li><a href="/png-compressor">PNG Compressor</a></li>
                         <li><a href="/webp-converter">WebP Converter</a></li>
                         <li><a 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Online Image Compression Tool | Reduce Image Size</title>
+  <meta name="description" content="Reduce your image file size without losing quality. Supports JPG, PNG, and WebP formats. Fast, secure, and completely free!">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Add Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1><a href="/">Image Compressor</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Compress Your Images</h2>
+        <p>Reduce file size without losing quality. Free, secure, and fast!</p>
+        
+        <!-- File Upload Area -->
+        <div class="upload-container">
+          <!-- Upload code from above -->
+        </div>
+      </div>
+    </section>
+
+    <section id="compression-results" class="compression-results">
+      <div class="container">
+        <h3>Compression Results</h3>
+        <!-- Results will be shown here -->
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast Processing</h3>
+            <p>Our tool compresses your images in seconds using advanced algorithms to reduce file size without noticeable quality loss.</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-lock"></i>
+            <h3>Secure &amp; Private</h3>
+            <p>All image processing happens in your browser. Your files never leave your device, ensuring complete privacy.</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-gift"></i>
+            <h3>100% Free</h3>
+            <p>No watermarks, no registration, no hidden fees. Compress as many images as you want, completely free.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Upload Images</h3>
+            <p>Select your JPG, PNG, or WebP images from your device or drag and drop them.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Compression</h3>
+            <p>Our advanced algorithm reduces file size while preserving visual quality.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Download</h3>
+            <p>Download your compressed images individually or all at once.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>What image formats are supported?</h3>
+          <p>Our tool supports JPEG, PNG, and WebP formats.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Will I lose image quality?</h3>
+          <p>Our algorithm is designed to minimize quality loss while maximizing compression. For most images, the difference is barely noticeable.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is there a file size limit?</h3>
+          <p>You can upload images up to 10MB in size.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How many images can I compress?</h3>
+          <p>There's no limit! Compress as many images as you want.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Image Compressor. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="compression.js"></script>
+</body>
+</html>
