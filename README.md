@@ -20,7 +20,7 @@
     <link rel="canonical" href="https://www.yourimagecompressor.com">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8773480799818158" crossorigin="anonymous"></script>
     <style>
-        :root Publisher ID: pub-8773480799818158 
+        :root :
             --primary-color: #4285f4;
             --secondary-color: #34a853;
             --accent-color: #ea4335;
