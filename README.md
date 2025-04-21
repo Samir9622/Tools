@@ -19,6 +19,7 @@
     <title>Free Online Image Compression Tool | Reduce Image Size</title>
     <link rel="canonical" href="https://www.yourimagecompressor.com">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8773480799818158" crossorigin="anonymous"></script>
+  <title>Google Auth Callback</title>
     <style>
         :root {
             --primary-color: #4285f4;
