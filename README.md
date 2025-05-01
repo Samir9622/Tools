@@ -526,7 +526,7 @@ function handleFiles(e) {
      <ins class="adsbygoogle" 
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
-     data-ad-slot="9354903383"
+     data-ad-slot="5072843171"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
@@ -588,7 +588,7 @@ function handleFiles(e) {
         <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
-     data-ad-slot="9055111364"
+     data-ad-slot="5072843171"
      data-ad-format="auto"
      data-full-width-responsive="true"></ins>
 <script>
