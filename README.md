@@ -522,7 +522,7 @@ function handleFiles(e) {
         <div class="ad-section">
             <div class="ad-container">
          
-       <!-- AdSense Ad Unit -->ca-app-pub-8773480799818158/9354903383      
+       <!-- AdSense Ad Unit -->ca-app-pub-8773480799818158/5072843171      
      <ins class="adsbygoogle" 
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
@@ -584,7 +584,7 @@ function handleFiles(e) {
         <div class="ad-section">
             <div class="ad-container">
        
-        <!-- AdSense Ad Unit -->ca-app-pub-8773480799818158/9055111364      
+        <!-- AdSense Ad Unit -->ca-app-pub-8773480799818158/5072843171   
         <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8773480799818158"
